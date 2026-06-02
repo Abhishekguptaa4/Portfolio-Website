@@ -16,7 +16,7 @@ export default function Hero() {
 
   useEffect(() => {
     typedInstanceRef.current = new Typed(typedRef.current, {
-      strings: ['Backend Developer', 'Full Stack Developer', 'Web Developer', 'Data Analyst', 'Problem Solver'],
+      strings: [ 'Software Developer', 'Full Stack Developer', 'Backend Developer', 'Web Developer', 'Data Analyst', 'Problem Solver'],
       typeSpeed: 60,
       backSpeed: 40,
       backDelay: 1800,
@@ -159,7 +159,7 @@ export default function Hero() {
               />
               <div className="text-center">
                 <span className="font-display font-black text-8xl gradient-text">AG</span>
-                <p className="font-mono text-neon/60 text-xs mt-2 tracking-widest">BACKEND DEVELOPER</p>
+                <p className="font-mono text-neon/60 text-xs mt-2 tracking-widest">SOFTWARE DEVELOPER</p>
               </div>
             </motion.div>
 
